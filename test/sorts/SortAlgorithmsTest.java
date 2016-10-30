@@ -34,6 +34,5 @@ public class SortAlgorithmsTest {
     public void heapSortSimpleArrayTest() throws Exception {
         SortAlgorithms.heapSort(list4);
         Assert.assertArrayEquals(new Integer[] {-2, 1, 2, 2, 3, 3, 5, 6, 12, 14}, list4);
-
     }
 }
